@@ -1,0 +1,70 @@
+------------------------------------------------------------------------
+
+title: "Tarea N°1" subtitle: "Universidad Alberto Hurtado - Estadística III" author: "Estudiante: Violeta Paz Rivera Sepúlveda - Profesor: Mauricio Carrasco - Ayudante: Vicente Díaz" date: "2025-03-30" output: html_document
+
+## 1. Carga de paquetes
+
+```{r setup, include=FALSE}
+install.packages("tidyverse")
+install.packages("pactan")
+install.packages("sjplot")
+install.packages("sjmisc")
+install.packages("knitr")
+
+library(tidyverse)  # Conjunto de paquetes esenciales para manipulación de datos y visualización.
+library(pactan)     # Facilita el análisis de datos sociales.
+library(sjplot)     # Permite la creación de gráficos estadísticos sencillos.
+library(sjmisc)     # Proporciona herramientas útiles para el manejo de datos.
+library(knitr)      # Permite la creación de tablas en documentos RMarkdown.
+```
+
+## 2. Flujo
+
+En un proyecto en RStudio, la organización de archivos es clave para la reproducibilidad. Se sigue la siguiente estructura:
+
+### 📂 Entrada (`input`)
+
+Almacena bases de datos en formatos como `.csv`, `.sav`, `.dta` y documentos como `.doc` o `.pdf`.
+
+### 📂 R (`R`)
+
+Guarda los códigos en `.R`, que contienen procedimientos y análisis.
+
+### 📂 Salida (`output`)
+
+Aquí se guardan los datos procesados en `.csv`, `.sav`, `.dta`, además de tablas y figuras en `.png` o `.xlsx`.
+
+### 🔹 ¿Qué es un archivo `.Rproj`?
+
+Es un archivo que configura un proyecto en RStudio, permitiendo gestionar la estructura y facilitar la reproducibilidad.
+
+```{r, echo=FALSE}
+knitr::include_graphics("flujo.png")
+```
+
+## 3. Descriptivos
+
+Para este análisis, se explorará la **confianza en los partidos políticos en Chile**, basada en datos de la **Encuesta Longitudinal Social de Chile (ELSOC, 2022)**.
+
+```{r}
+# Crear la tabla de confianza en partidos políticos
+confianza_partidos <- data.frame(
+  Nivel = c("Mucha confianza", "Algo de confianza", "Poca confianza", "Nada de confianza"),
+  Porcentaje = c(5, 15, 30, 50)
+)
+
+kable(confianza_partidos, caption = "Confianza en los partidos políticos en Chile (ELSOC, 2022)")
+```
+
+### 📊 Análisis gráfico
+
+A continuación, se presenta un gráfico que ilustra esta distribución:
+
+```{r, echo=FALSE}
+knitr::include_graphics("grafico01.jpg")
+```
+
+**Explicación:**\
+La tabla y el gráfico muestran los niveles de confianza en los partidos políticos según la **Encuesta Longitudinal Social de Chile (ELSOC, 2022)**. Un 50% de los encuestados declaró no tener **nada de confianza** en los partidos, mientras que solo un 5% expresó **mucha confianza**. Esto refleja una crisis de legitimidad en las instituciones políticas chilenas.
+
+*Fuente: [ELSOC 2022, Centro de Estudios de Conflicto y Cohesión Social (COES)](https://coes.cl/encuesta-elsoc/)*
