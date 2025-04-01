@@ -1,0 +1,132 @@
+"1","
+"
+"1","  Binaries will be installed
+"
+"2","probando la URL 'https://cran.rstudio.com/bin/windows/contrib/4.2/xfun_0.43.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 483588 bytes (472 KB)
+"
+"2","downloaded 472 KB
+
+"
+"1","package ‘xfun’ successfully unpacked and MD5 sums checked
+"
+"1","Warning in "
+"1",""
+"1","install.packages"
+"1",""
+"1"," :
+  "
+"1",""
+"1","cannot remove prior installation of package ‘xfun’"
+"1",""
+"1","
+"
+"1","Warning in "
+"1",""
+"1","install.packages"
+"1",""
+"1"," :
+  "
+"1",""
+"1","problema al copiar D:\Archivo de programas\R-4.2.2\library\00LOCK\xfun\libs\x64\xfun.dll  a D:\Archivo de programas\R-4.2.2\library\xfun\libs\x64\xfun.dll: Permission denied"
+"1",""
+"1","
+"
+"1","Warning in "
+"1",""
+"1","install.packages"
+"1",""
+"1"," :
+  "
+"1",""
+"1","restored ‘xfun’"
+"1",""
+"1","
+"
+"1","
+"
+"1",""
+"1","The downloaded binary packages are in
+	C:\Users\VICHO\AppData\Local\Temp\RtmpEbdAwT\downloaded_packages"
+"1",""
+"1","
+"
+"2","installing the source package ‘knitr’
+
+"
+"2","probando la URL 'https://cran.rstudio.com/src/contrib/knitr_1.50.tar.gz'
+"
+"2","Content type 'application/x-gzip'"
+"2"," length 534264 bytes (521 KB)
+"
+"2","downloaded 521 KB
+
+"
+"1","* installing *source* package 'knitr' ...
+"
+"1","** package 'knitr' successfully unpacked and MD5 sums checked
+"
+"1","** using staged installation
+"
+"1","** R
+"
+"1","** inst
+"
+"1","** byte-compile and prepare package for lazy loading
+"
+"1","Error in loadNamespace(j <- i[[1L]], c(lib.loc, .libPaths()), versionCheck = vI[[j]]) : 
+"
+"1","  namespace 'xfun' 0.37 is being loaded, but >= 0.51 is required
+"
+"1","Calls: <Anonymous> ... namespaceImportFrom -> asNamespace -> loadNamespace
+"
+"1","Ejecución interrumpida
+"
+"1","ERROR: lazy loading failed for package 'knitr'
+"
+"1","* removing 'D:/Archivo de programas/R-4.2.2/library/knitr'
+"
+"1","* restoring previous 'D:/Archivo de programas/R-4.2.2/library/knitr'
+"
+"1","Warning in "
+"1",""
+"1","install.packages"
+"1",""
+"1"," :
+  "
+"1",""
+"1","installation of package ‘knitr’ had non-zero exit status"
+"1",""
+"1","
+"
+"2","
+"
+"2",""
+"2","The downloaded source packages are in
+	‘C:\Users\VICHO\AppData\Local\Temp\RtmpEbdAwT\downloaded_packages’"
+"2",""
+"2","
+"
+"0","library(sjmisc)     # Proporciona herramientas útiles para el manejo de datos."
+"2","
+Attaching package: ‘sjmisc’
+
+"
+"2","The following object is masked from ‘package:purrr’:
+
+    is_empty
+
+"
+"2","The following object is masked from ‘package:tidyr’:
+
+    replace_na
+
+"
+"2","The following object is masked from ‘package:tibble’:
+
+    add_case
+
+"
+"0","library(knitr)      # Permite la creación de tablas en documentos RMarkdown."

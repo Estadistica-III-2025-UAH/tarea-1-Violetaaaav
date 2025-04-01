@@ -1,0 +1,80 @@
+"0","install.packages(""tidyverse"")"
+"1","Error in "
+"1",""
+"1","install.packages"
+"1",""
+"1"," : "
+"1",""
+"1","Updating loaded packages"
+"1",""
+"1","
+"
+"0","install.packages(""pacman"")"
+"2","WARNING: Rtools is required to build R packages but is not currently installed. Please download and install the appropriate version of Rtools before proceeding:
+
+https://cran.rstudio.com/bin/windows/Rtools/
+"
+"2","probando la URL 'https://cran.rstudio.com/bin/windows/contrib/4.2/pacman_0.5.1.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 390133 bytes (380 KB)
+"
+"2","downloaded 380 KB
+
+"
+"1","package ‘pacman’ successfully unpacked and MD5 sums checked
+"
+"1","
+"
+"1",""
+"1","The downloaded binary packages are in
+	C:\Users\VICHO\AppData\Local\Temp\RtmpEbdAwT\downloaded_packages"
+"1",""
+"1","
+"
+"0","install.packages(""tidyverse"")"
+"2","WARNING: Rtools is required to build R packages but is not currently installed. Please download and install the appropriate version of Rtools before proceeding:
+
+https://cran.rstudio.com/bin/windows/Rtools/
+"
+"2","probando la URL 'https://cran.rstudio.com/bin/windows/contrib/4.2/tidyverse_2.0.0.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 430852 bytes (420 KB)
+"
+"2","downloaded 420 KB
+
+"
+"1","package ‘tidyverse’ successfully unpacked and MD5 sums checked
+"
+"1","
+"
+"1",""
+"1","The downloaded binary packages are in
+	C:\Users\VICHO\AppData\Local\Temp\RtmpEbdAwT\downloaded_packages"
+"1",""
+"1","
+"
+"0","install.packages(""sjPlot"")"
+"1","Error in "
+"1",""
+"1","install.packages"
+"1",""
+"1"," : "
+"1",""
+"1","Updating loaded packages"
+"1",""
+"1","
+"
+"0","install.packages(""sjmisc"")"
+"2","WARNING: Rtools is required to build R packages but is not currently installed. Please download and install the appropriate version of Rtools before proceeding:
+
+https://cran.rstudio.com/bin/windows/Rtools/
+"
+"1","
+"
+"1",""
+"1","  There is a binary version available but the source version is later"
+"1",""
+"1",":
+"
